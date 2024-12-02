@@ -15,7 +15,7 @@
 
 ## DISCLAIMER
 
-**Hax Framework** is intended for educational purposes and legal actions only. The tool is designed to assist users in learning about network security and conducting authorized penetration testing. 
+**Hax Framework** is intended for educational purposes and legal actions only.
 
 By using this tool, you agree that you are solely responsible for your actions. Unauthorized scanning or penetration testing of networks or systems without permission is illegal and may result in legal consequences. Always obtain explicit permission from the network or system owner before using this tool.
 
