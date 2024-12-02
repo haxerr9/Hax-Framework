@@ -12,3 +12,11 @@
 1. Make sure python is downloaded
 2. Run 'pip install -r requirements.txt'
 3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework)
+
+## DISCLAIMER
+
+**Hax Framework** is intended for educational purposes and legal actions only. The tool is designed to assist users in learning about network security and conducting authorized penetration testing. 
+
+By using this tool, you agree that you are solely responsible for your actions. Unauthorized scanning or penetration testing of networks or systems without permission is illegal and may result in legal consequences. Always obtain explicit permission from the network or system owner before using this tool.
+
+The creators and maintainers of **Hax Framework** are not responsible for any misuse of the tool or any illegal activities that may arise from its usage. Use this tool at your own risk.
