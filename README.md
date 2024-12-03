@@ -17,6 +17,10 @@
 2. Run 'pip install -r requirements.txt'
 3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework)
 
+## Socials
+*Instagram*: @haxframework / https://www.instagram.com/haxframework?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+*Discord*: hax9999 / https://discord.gg/HY3N5nbAbH
+
 ## DISCLAIMER
 
 **Hax Framework** is intended for educational purposes and legal actions only.
