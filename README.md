@@ -4,8 +4,12 @@
 
 ## Features
 
-- **Nmap Scan**: Scan IPs easily, get a detailed output from Nmap scanning tool. For default and for now,  `-sCV`, `-O`, `-A`, `-T4` options are used in Nmap scans for a good scan result.
+- **Nmap Scan**: Scan IPs easily, get a detailed output from Nmap scanning tool.
 - **User Friendly Console UI**: Easy usage with basic commands.
+
+## Updates
+- **Fixed Nmap Scan Options**: Fixed default Nmap scan options.
+- **Added Terminal Commands**: Added some terminal commands. Now you can execute terminal commands in Hax Framework with 't' command. Ex: "t ipconfig"
 
 ## Setup
 
