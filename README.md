@@ -1,6 +1,6 @@
 # Hax Framework
 
-**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 0.1 so it is not very usefull tool for now.
+**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 2.0
 
 ## Features
 
@@ -8,7 +8,7 @@
 - **User Friendly Console UI**: Easy usage with basic commands.
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
 
-## Updates
+## Updates: V2.0 RELEASED 11/12/2024
 - **Added Custom Wordlist Generator**: Added a new feature; custom wordlist generator. Very user friendly and easy to use CLI.
 
 ## Setup
