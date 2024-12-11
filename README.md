@@ -1,6 +1,6 @@
 # Hax Framework
 
-**Hax Framework**: An amazing tool for automating reconnaissance, information gathering. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 0.1 so it is not very usefull tool for now.
+**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 0.1 so it is not very usefull tool for now.
 
 ## Features
 
