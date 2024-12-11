@@ -6,16 +6,16 @@
 
 - **Nmap Scan**: Scan IPs easily, get a detailed output from Nmap scanning tool.
 - **User Friendly Console UI**: Easy usage with basic commands.
+- **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
 
 ## Updates
-- **Fixed Nmap Scan Options**: Fixed default Nmap scan options.
-- **Added Terminal Commands**: Added some terminal commands. Now you can execute terminal commands in Hax Framework with 't' command. Ex: "t ipconfig"
+- **Added Custom Wordlist Generator**: Added a new feature; custom wordlist generator. Very user friendly and easy to use CLI.
 
 ## Setup
 
 1. Make sure python is downloaded
 2. Run 'pip install -r requirements.txt'
-3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework)
+3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework.py)
 
 ## Socials
 *Instagram*: @haxframework / https://www.instagram.com/haxframework?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
