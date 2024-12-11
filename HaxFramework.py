@@ -2,6 +2,10 @@
 import os
 import subprocess
 import pyfiglet
+import itertools
+import random
+from wordlistgen import genWordlist
+from wordlistgen import totalPass
 
 bannerText = "      Hax Framework"
 banner = pyfiglet.figlet_format(bannerText)
@@ -32,6 +36,16 @@ Host Scan Help Menu:
         -> -O  / --os-scan          = Enable OS detection while scanning.
         -> -A  / --all              = Enable OS detection, version detection, script scanning, and traceroute.
 
+Wordlist Generator Help Menu:
+    Ex. Usage:
+        -> wlgen [WORDS] [OPTIONS ](No spaces, seperate words by ";")
+        -> wlgen name;surname;age -min=6 -max=12
+
+    Options:
+        -> -min=[MIN LENGTH] / --min-length=[MIN LENGTH]        = Specify the min lenght for each generated password.
+        -> -max=[MAX LENGTH] / --max-length=[MAX LENGTH]        = Specify the max lenght for each generated password.
+   
+    
 
 """
 
@@ -39,16 +53,17 @@ print("Welcome To \n", banner, "\nConsole!\n\n### Made By Arda Utku Kalmaz - @ha
 print(hMenu)
 
 
+print(" --> HaxFramework Loaded. Type 'help' for help menu. ")
+
 def hScan(IP, COMMANDS):
     command = f"nmap {IP} {COMMANDS}"
     result = os.system(command)
 
     print(result)
 
-print(" --> HaxFramework Loaded. Type 'help' for help menu. ")
 
 while True:
-    cmd = input("\nHF_0.1>>> ")
+    cmd = input("\nHF_2.0>>> ")
 
     if cmd == "help" or cmd == "Help":
         print(hMenu)
@@ -70,8 +85,27 @@ while True:
 
         ipAddr = cmdParts[1]
         options = " ".join(cmdParts[2:])
-        
+
         hScan(ipAddr, options)
+
+    elif cmd.startswith("wlgen "):
+        cmdParts = cmd.split()
+
+        words = cmdParts[1]
+        minLen = None
+        maxLen = None
+
+        for part in cmdParts:
+            if part.startswith("--min-length") or part.startswith("-min"):
+                minLen = int(part.split('=')[1])
+
+            elif part.startswith("--max-length") or part.startswith("-max"):
+                maxLen = int(part.split('=')[1])
+
+        if minLen != None and maxLen != None:
+            genWordlist(words, minLen, maxLen)
+            totalPass()
+    
 
 
     else:
