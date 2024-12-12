@@ -1,4 +1,4 @@
-# Tool By hax / haxer
+#Tool By hax / haxer
 import os
 import subprocess
 import pyfiglet
@@ -6,6 +6,7 @@ import itertools
 import random
 from wordlistgen import genWordlist
 from wordlistgen import totalPass
+from bruteforce import bruteForce
 
 bannerText = "      Hax Framework"
 banner = pyfiglet.figlet_format(bannerText)
@@ -45,8 +46,18 @@ Wordlist Generator Help Menu:
         -> -min=[MIN LENGTH] / --min-length=[MIN LENGTH]        = Specify the min lenght for each generated password.
         -> -max=[MAX LENGTH] / --max-length=[MAX LENGTH]        = Specify the max lenght for each generated password.
    
-    
+Brute Force Help Menu [INSTAGRAM ONLY (For now)]:
+    Ex. Usage:
+        -> bforce [URL] [PASSLIST] [USERNAME]
+        -> bforce --url https://example.com/login -w wordlist.txt -u admin
 
+    Options:
+        -> --url [URL]                  = Specify URL for brute force attack.
+        -> -w / --wordlist [PATH]       = Specify a password list file (".txt" extension).
+        -> -u / --username [USERNAME]   = Specify a username for brute force attack.
+   
+
+        
 """
 
 print("Welcome To \n", banner, "\nConsole!\n\n### Made By Arda Utku Kalmaz - @hax9999 / @_haxerr ###")
@@ -63,7 +74,7 @@ def hScan(IP, COMMANDS):
 
 
 while True:
-    cmd = input("\nHF_2.0>>> ")
+    cmd = input("\nHF_3.1>>> ")
 
     if cmd == "help" or cmd == "Help":
         print(hMenu)
@@ -105,8 +116,15 @@ while True:
         if minLen != None and maxLen != None:
             genWordlist(words, minLen, maxLen)
             totalPass()
-    
 
+    elif cmd.startswith("bforce "):
+        cmdParts = cmd.split()
+
+        url = cmdParts[cmdParts.index("--url") + 1]
+        passList = cmdParts[cmdParts.index("-w") + 1]
+        username = cmdParts[cmdParts.index("-u") + 1]
+    
+        bruteForce(url, passList, username)
 
     else:
         print("\n[!] Not A Valid Command !")
