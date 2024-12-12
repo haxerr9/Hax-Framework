@@ -13,6 +13,8 @@
 - **Added Custom Wordlist Generator**: Added a new feature; custom wordlist generator. Very user friendly and easy to use CLI.
 - **Added Brute Force Feature**: Added brute force feature for Instagram only (for now). Now you can generate a wordlist and use it for brute force attacks.
 
+- **New CLI Updates**: Updates CLI and added new help commands for brute force.
+
 ## Setup
 
 1. Make sure python is downloaded
