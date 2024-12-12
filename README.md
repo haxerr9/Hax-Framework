@@ -7,9 +7,11 @@
 - **Nmap Scan**: Scan IPs easily, get a detailed output from Nmap scanning tool.
 - **User Friendly Console UI**: Easy usage with basic commands.
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
+- **Brute Force (Instagram Only For Now)**: Perform brute force attacks.
 
-## Updates: V2.0 RELEASED 11/12/2024
+## Updates: V3.1 RELEASED 12/12/2024
 - **Added Custom Wordlist Generator**: Added a new feature; custom wordlist generator. Very user friendly and easy to use CLI.
+- **Added Brute Force Feature**: Added brute force feature for Instagram only (for now). Now you can generate a wordlist and use it for brute force attacks.
 
 ## Setup
 
