@@ -27,6 +27,8 @@
 
 *Discord*: hax9999 / https://discord.gg/HY3N5nbAbH
 
+**Please Do Not Forget To Give A Star !**
+
 ## DISCLAIMER
 
 **Hax Framework** is intended for educational purposes and legal actions only.
