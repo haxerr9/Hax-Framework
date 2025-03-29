@@ -1,6 +1,6 @@
 # Hax Framework
 
-**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 2.0
+**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 4.0
 
 ## Features
 
@@ -9,11 +9,9 @@
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
 - **Brute Force (Instagram Only For Now)**: Perform brute force attacks.
 
-## Updates: V3.1 RELEASED 12/12/2024
-- **Added Custom Wordlist Generator**: Added a new feature; custom wordlist generator. Very user friendly and easy to use CLI.
-- **Added Brute Force Feature**: Added brute force feature for Instagram only (for now). Now you can generate a wordlist and use it for brute force attacks.
-
-- **New CLI Updates**: Updates CLI and added new help commands for brute force.
+## Updates: V4.1 RELEASED 12/12/2024
+- **Built In Port Scanner**: Downgraded (also Upgraded) a new feature; Built in port scanner for finding open ports on the target system. 
+- **Removed Brute Force Feature**: Removed brute force feature for more development and performance updates. Will be added soon.
 
 ## Setup
 
@@ -22,7 +20,7 @@
 3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework.py)
 
 ## Socials
-*Instagram*: @haxframework / https://www.instagram.com/haxframework?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+*Instagram*: @haxframework / https://www.instagram.com/haxframework
 
 
 *Discord*: hax9999 / https://discord.gg/HY3N5nbAbH
