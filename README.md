@@ -9,7 +9,7 @@
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
 - **Brute Force (Instagram Only For Now)**: Perform brute force attacks.
 
-## Updates: V4.1 RELEASED 12/12/2024
+## Updates: V4.1 RELEASED 30/3/2025
 - **Built In Port Scanner**: Downgraded (also Upgraded) a new feature; Built in port scanner for finding open ports on the target system. 
 - **Removed Brute Force Feature**: Removed brute force feature for more development and performance updates. Will be added soon.
 
