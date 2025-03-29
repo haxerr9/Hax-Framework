@@ -4,10 +4,10 @@
 
 ## Features
 
-- **Nmap Scan**: Scan IPs easily, get a detailed output from Nmap scanning tool.
+- **Port Scan**: Scan IPs easily, get a list of open ports.
 - **User Friendly Console UI**: Easy usage with basic commands.
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
-- **Brute Force (Instagram Only For Now)**: Perform brute force attacks.
+- **Brute Force**: Perform brute force attacks.    [DISABLED FOR NOW / WILL BE ADDED SOON]
 
 ## Updates: V4.1 RELEASED 30/3/2025
 - **Built In Port Scanner**: Downgraded (also Upgraded) a new feature; Built in port scanner for finding open ports on the target system. 
