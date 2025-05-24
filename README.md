@@ -9,7 +9,7 @@
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
 - **Dir Scan**: Perform a dir search to a website
 
-## Updates: V5.5 RELEASED 30/3/2025
+## Updates: V5.5 RELEASED 24/05/2025
 - **Built In Port Scanner**: Downgraded (also Upgraded) a new feature; Built in port scanner for finding open ports on the target system. 
 - **Added Dir Scanner**: Added a dir scanner for websites. Now you can give it a wordlist and a website to perform a dir scan. Optionally you can specify a filter for response codes.
 
