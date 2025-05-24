@@ -1,17 +1,17 @@
 # Hax Framework
 
-**Hax Framework**: An amazing tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 4.0
+**Hax Framework**: A tool for automating reconnaissance, information gathering, hacking. It will make easy to do recon and save your time while you working on. There will be updates in time, this is version 5.*
 
 ## Features
 
 - **Port Scan**: Scan IPs easily, get a list of open ports.
 - **User Friendly Console UI**: Easy usage with basic commands.
 - **Custom Wordlist Generator**: Custom wordlist generator for password attacks.
-- **Brute Force**: Perform brute force attacks.    [DISABLED FOR NOW / WILL BE ADDED SOON]
+- **Dir Scan**: Perform a dir search to a website
 
-## Updates: V4.1 RELEASED 30/3/2025
+## Updates: V5.5 RELEASED 30/3/2025
 - **Built In Port Scanner**: Downgraded (also Upgraded) a new feature; Built in port scanner for finding open ports on the target system. 
-- **Removed Brute Force Feature**: Removed brute force feature for more development and performance updates. Will be added soon.
+- **Added Dir Scanner**: Added a dir scanner for websites. Now you can give it a wordlist and a website to perform a dir scan. Optionally you can specify a filter for response codes.
 
 ## Setup
 
@@ -21,7 +21,6 @@
 
 ## Socials
 *Instagram*: @haxframework / https://www.instagram.com/haxframework
-
 
 *Discord*: hax9999 / https://discord.gg/HY3N5nbAbH
 
