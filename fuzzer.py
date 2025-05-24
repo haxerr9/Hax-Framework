@@ -15,10 +15,10 @@ def fuzz(url, wordlist, filters):
             resCode = req.status_code
 
 
-            if filter != None:
+            if filter != 0 and filter != None:
                 if int(resCode) == filter:
                     print(f"/{dir} >>>", resCode, f"LEN={resLen}")
 
-            elif filter == None:
+            elif filter == 0:
                 print(f"/{dir} >>> Response: ", resCode, f"LEN={resLen}")
 
