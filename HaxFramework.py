@@ -40,14 +40,13 @@ Wordlist Generator:
         -> wlgen john;doe;32 -min=6 -max=12
 
     Options:
-        -> -min=[MIN LENGTH] / --min-length=[MIN LENGTH]        = Specify the min lenght for each generated password.
-        -> -max=[MAX LENGTH] / --max-length=[MAX LENGTH]        = Specify the max lenght for each generated password.
+        -> -min [MIN LENGTH] / --min-length [MIN LENGTH]        = Specify the min lenght for each generated password.
+        -> -max [MAX LENGTH] / --max-length [MAX LENGTH]        = Specify the max lenght for each generated password.
 
 Web Fuzzer:
     Usage:
         -> fuzz [URL] [WORDLIST]
-
-        -> fuzz -u https://exmaple.com/ -w wordlist.txt
+        -> fuzz -u https://exmaple.com/ -w wordlist.txt -f 200
 
     Options:
         -> -u [URL]              = Specify an URL to scan.
@@ -66,7 +65,7 @@ print(" --> HaxFramework Loaded. Type 'help' for help menu. ")
 
 try:
     while True:
-        cmd = input("\nhf-v4.2>>> ")
+        cmd = input("\nhf-v5.5>>> ")
 
 
         # // HELP MENU //
@@ -125,7 +124,6 @@ try:
         # // FUZZER COMMANDS //
         elif cmd.startswith("fuzz "):
             cmdParts = cmd.split()
-            print(cmdParts)
 
             url = cmdParts[cmdParts.index("-u") + 1]
             wordlist = cmdParts[cmdParts.index("-w") + 1]
