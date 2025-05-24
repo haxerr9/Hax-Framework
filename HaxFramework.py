@@ -46,7 +46,8 @@ Wordlist Generator:
 Web Fuzzer:
     Usage:
         -> fuzz [URL] [WORDLIST]
-        -> fuzz -u https://exmaple.com/ -w wordlist.txt -f 200
+
+        -> fuzz -u https://exmaple.com/ -w wordlist.txt
 
     Options:
         -> -u [URL]              = Specify an URL to scan.
@@ -125,10 +126,13 @@ try:
         elif cmd.startswith("fuzz "):
             cmdParts = cmd.split()
 
-            url = cmdParts[cmdParts.index("-u") + 1]
-            wordlist = cmdParts[cmdParts.index("-w") + 1]
-            filters = cmdParts[cmdParts.index("-f") + 1]
-            
+            try:        
+                url = cmdParts[cmdParts.index("-u") + 1]
+                wordlist = cmdParts[cmdParts.index("-w") + 1]
+                filters = cmdParts[cmdParts.index("-f") + 1]
+            except ValueError:
+                filters = 0
+
             if url and wordlist != None:
                 fuzz(url, wordlist, filters)
 
