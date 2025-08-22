@@ -20,7 +20,7 @@
 3. Run 'python3 HaxFramework.py' in Linux. (For Windows: .\Haxframework.py)
 
 ## Socials
-*Instagram*: @haxframework / https://www.instagram.com/haxframework
+*Instagram*: 
 
 *Discord*: hax9999 / https://discord.gg/HY3N5nbAbH
 
